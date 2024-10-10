@@ -18,7 +18,7 @@ git init --bare $HOME/<name of the directory>
 ## Then add this alias to your .bashrc/.zshrc file or whatever shell you are using 
 
 ```
-alias <alias name>="git --git-dir=$HOME/<name of the director you created> --work-tree=$HOME"
+alias <alias name>="/usr/bin/git git --git-dir=$HOME/<name of the director you created> --work-tree=$HOME"
 ```
 
 Now set show untracked files to false
