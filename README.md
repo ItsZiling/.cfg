@@ -42,4 +42,21 @@ You may need to link the repo first to the bare git repo
 # This would push and link the git repo
 <alias name> push --set-upstream <url>
 ```
+Alternative, (this is probably the best way to link the repo)
+```
+<alias name> remote add <name of the branch> <url> 
+```
+
+# Setting up in a new machine
+
+```
+
+
+
+
+
+
+
+
+
 
