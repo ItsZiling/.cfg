@@ -29,7 +29,7 @@ Now set show untracked files to false
 # Adding, commit and push file to the repo
 
 ```
-<alias name> add <name of the dotfiles>
+<alias name> add <name of the file>
 <alias name> commit -m "<message>"
 <alias name> push
 ```
