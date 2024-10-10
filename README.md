@@ -1,4 +1,5 @@
 This is my dotfiles for linux operating system</br> 
+To make your own follow the steps below
 
 # Configuring a bare git repo
 
