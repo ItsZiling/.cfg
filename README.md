@@ -34,7 +34,7 @@ Now set show untracked files to false
 <alias name> push
 ```
 
-## Note before pushing to the repo
+## Note: before pushing to the repo
 You may need to link the repo first to the bare git repo
 
 ```
