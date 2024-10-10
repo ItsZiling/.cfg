@@ -49,9 +49,7 @@ Alternative, (this is probably the best way to link the repo)
 ```
 
 # Setting up in a new machine
-
-```
-
+Just go to this link: https://www.atlassian.com/git/tutorials/dotfiles
 
 
 
