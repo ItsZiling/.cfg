@@ -40,12 +40,7 @@ You may need to link the repo first to the bare git repo
 
 ```
 # This would push and link the git repo
-<alias name> push --set-upstream <url>
-```
-Alternative, (this is probably the best way to link the repo)
-```
-# most people use origin for <name>
-<alias name> remote add <name> <url> 
+<alias name> push --set-upstream <remote name> <default branch name>
 ```
 
 # Setting up in a new machine
