@@ -60,7 +60,7 @@ Now clone your repo into `.cfg` as a bare repo.
 ```bash
 git clone --bare <remote url> $HOME/.cfg
 ```
-Note: It is not need for `.cfg` to be cloned in $HOME, it can be in a subdirectory of $HOME just make sure you specify path of where you want to clone it (e.g. `$HOME/sub/.cfg`). As long as the you still define the work tree as `$HOME` it will pull files and put them in `$HOME` when we checkout.</br>
+Note: It is not need for `.cfg` to be cloned in `$HOME`, it can be in a subdirectory of $HOME just make sure you specify path of where you want to clone it (e.g. `$HOME/sub/.cfg`). As long as the you still define the work tree as `$HOME` it will pull files and put them in `$HOME` when we checkout.</br>
 
 Setup the alias.
 ```bash
