@@ -71,7 +71,7 @@ Checkout the content in `.cfg` and put them in `$HOME`
 ```bash
 cfg checkout
 ```
-Note: You might get a failed message with somewhere along the line of `error: The following untracked working tree files would be overwritten by checkout:` then showing a list of file that would overwritten. This is because there are identical files under the work tree `$HOME`, just either backup them or delete them if you do not need them. Then run the command again.
+Note: You might get a failed message with somewhere along the line of `error: The following untracked working tree files would be overwritten by checkout:` then showing a lists of file that would be overwritten. This is because there are identical files under the work tree `$HOME`, just either backup them or delete them if you do not need them. Then run the command again.
 
 Set a local configuration to ignore untracked files
 
