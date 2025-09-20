@@ -20,7 +20,7 @@ git init --bare $HOME/.cfg
 You can choose any alias name I will be using `cfg` as my alias name.
 
 ```bash
-alias cfg='/usr/bin/git git --git-dir=$HOME/.cfg --work-tree=$HOME'
+alias cfg='/usr/bin/git --git-dir=$HOME/.cfg --work-tree=$HOME'
 ```
 You can also echo it, make sure to replace `.bashrc` to whatever shell you are using.
 
@@ -64,7 +64,7 @@ Note: It is not need for `.cfg` to be cloned in `$HOME`, it can be in a subdirec
 
 Setup the alias.
 ```bash
-alias cfg='/usr/bin/git git --git-dir=$HOME/.cfg --work-tree=$HOME'
+alias cfg='/usr/bin/git --git-dir=$HOME/.cfg --work-tree=$HOME'
 ```
 Checkout the content in `.cfg` and put them in `$HOME`
 
