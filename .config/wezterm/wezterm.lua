@@ -28,7 +28,7 @@ config = {
   background = {
     {
       source = {
-        File = "$HOME/wallpapers/night.jpg"
+        File = "$HOME/wallpapers/purple_night.jpg"
       },
       hsb = { 
         hue = 1.0,
