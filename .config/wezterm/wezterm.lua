@@ -9,9 +9,7 @@ config.automatically_reload_config = true
 config.font_size = 10
 config.line_height = 1.2
 config.color_scheme = "Tokyo Night"
-config.font = wezterm.font_with_fallback({
-  { family = "JetBrains Mono", scale = 1 },
-})
+config.font = wezterm.font("JetBrains Mono")
 
 -- Colors
 config.colors = {
@@ -36,7 +34,6 @@ config.keys = {
   },
 }
 
-
 -- Mouse Bindings
 config.mouse_bindings = {
   {
@@ -45,4 +42,5 @@ config.mouse_bindings = {
     action = wezterm.action.StartWindowDrag,
   },
 }
+
 return config
