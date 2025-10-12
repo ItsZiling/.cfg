@@ -1,4 +1,4 @@
 # AxOS Custom Configuration 
 
-Contains my own configuration for AxOS Linux
+Contains some of my own configuration for AxOS Sleek Linux
 - Some changes to Hyprland Keybinds
