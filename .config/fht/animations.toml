@@ -1,0 +1,10 @@
+[animations]
+
+[animations.window-open-close]
+curve = "ease-out-expo"
+duration = 250
+
+[animations.workspace-switch]
+curve = "ease-out-expo"
+duration = 150
+

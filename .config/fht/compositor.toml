@@ -1,0 +1,26 @@
+autostart = []
+
+[general]
+cursor-warps = true
+focus-new-windows = true
+focus-follows-mouse = true
+
+layouts = ["tile", "floating"]
+nmaster = 1
+mwfact = 0.5
+inner-gaps = 10
+outer-gaps = 20
+
+[cursor] 
+name = "Bibata-Modern-Classic"
+size = 24
+
+imports = [  
+    "./input.toml", 
+    "./output.toml",
+    "./binds.toml", 
+    "./decorations.toml",
+    "./animations.toml", 
+    "./rules.toml",
+]
+
