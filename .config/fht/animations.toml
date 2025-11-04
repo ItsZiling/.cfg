@@ -8,3 +8,6 @@ duration = 250
 curve = "ease-out-expo"
 duration = 150
 
+[animations.window-geometry]
+disable = true
+
