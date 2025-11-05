@@ -10,6 +10,7 @@ Super-k = "focus-previous-window"
 
 Super-Return = { action = "run-command", arg = "wezterm" } # terminal
 Super-e = {action = "run-command", arg = "thunar"} # filemanager
+Super-b = {action = "run-command", arg = "microsoft-edge-stable"} # browser
 Super-n = {action = "run-command", arg = "swaync-client -t -sw"} # notif
 
 # workspace management stuff
@@ -50,6 +51,7 @@ repeat = true
 action = "run-command"
 arg = "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle"
 allow-while-locked = true
+repeat = true
 
 
 [keybinds.XF86AudioMicMute]
@@ -61,11 +63,13 @@ allow-while-locked = true
 action = "run-command"
 arg = "brightnessctl -e4 -n2 set 5%+"
 allow-while-locked = true
+repeat = true
 
 [keybinds.XF86MonBrightnessDown]
 action = "run-command"
 arg = "brightnessctl -e4 -n2 set 5%-"
 allow-while-locked = true
+repeat = true
 
 [mousebinds]
 Super-Left = "swap-tile"

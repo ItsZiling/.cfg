@@ -1,3 +1,5 @@
 [[rules]]
-
-# TODO 
+match-app-id = ["Steam", "steam_app_*"]
+floating = true
+centered = true
+vrr = true

@@ -1,5 +1,10 @@
 autostart = []
 
+
+[env]
+DISPLAY = ":0"
+_JAVA_AWT_NONREPARENTING = "1"
+
 [general]
 cursor-warps = true
 focus-new-windows = true
@@ -14,6 +19,7 @@ outer-gaps = 20
 [cursor] 
 name = "Bibata-Modern-Classic"
 size = 24
+
 
 imports = [  
     "./input.toml", 
