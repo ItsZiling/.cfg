@@ -5,7 +5,11 @@ if wezterm.config_builder then config = wezterm.config_builder() end
 
 
 config.automatically_reload_config = true
--- font
+
+-- Default Program
+config.default_prog = { '/usr/bin/fish' }
+
+-- Font
 config.font_size = 10
 config.line_height = 1.2
 config.color_scheme = "Tokyo Night"
