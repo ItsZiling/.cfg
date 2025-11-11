@@ -5,15 +5,16 @@ if wezterm.config_builder then config = wezterm.config_builder() end
 
 
 config.automatically_reload_config = true
+config.enable_wayland = false
+config.color_scheme = "Adwaita Dark"
 
 -- Default Program
 config.default_prog = { '/usr/bin/fish' }
 
 -- Font
-config.font_size = 10
+config.font_size = 12
 config.line_height = 1.2
-config.color_scheme = "Tokyo Night"
-config.font = wezterm.font("JetBrains Mono")
+config.font = wezterm.font("JetBrains Mono", {weight = 'Bold'})
 
 -- Colors
 config.colors = {
