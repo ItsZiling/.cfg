@@ -6,7 +6,6 @@ if wezterm.config_builder then config = wezterm.config_builder() end
 
 config.automatically_reload_config = true
 config.enable_wayland = false
-config.color_scheme = "Adwaita Dark"
 
 -- Default Program
 config.default_prog = { '/usr/bin/fish' }
@@ -18,8 +17,34 @@ config.font = wezterm.font("JetBrains Mono", {weight = 'Bold'})
 
 -- Colors
 config.colors = {
+  cursor_border = "white",
+  foreground = '#ffffff',
+  background = "black",
+  cursor_border = '#52ad70',
   cursor_bg = "white",
-  cursor_border = "white"
+  selection_fg = 'black',
+  selection_bg = '#ffffff',
+  split = '#444444',
+  ansi = {
+    'black',
+    'maroon',
+    'green',
+    'olive',
+    'navy',
+    'purple',
+    'teal',
+    'silver',
+  },
+  brights = {
+    'grey',
+    'red',
+    'lime',
+    'yellow',
+    'blue',
+    'fuchsia',
+    'aqua',
+    'white',
+  },
 }
 
 -- Windows and appearance
