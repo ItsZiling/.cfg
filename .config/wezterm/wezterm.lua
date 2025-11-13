@@ -16,6 +16,7 @@ config.line_height = 1.2
 config.font = wezterm.font("JetBrains Mono", {weight = 'Bold'})
 
 -- Colors
+config.color_scheme = "Builtin Dark"
 config.colors = {
   cursor_border = "white",
   foreground = '#ffffff',
@@ -25,26 +26,26 @@ config.colors = {
   selection_fg = 'black',
   selection_bg = '#ffffff',
   split = '#444444',
-  ansi = {
-    'black',
-    'maroon',
-    'green',
-    'olive',
-    'navy',
-    'purple',
-    'teal',
-    'silver',
-  },
-  brights = {
-    'grey',
-    'red',
-    'lime',
-    'yellow',
-    'blue',
-    'fuchsia',
-    'aqua',
-    'white',
-  },
+ ansi = {
+      'black', -- black
+      'red', -- red
+      'green', -- green
+      'yellow', -- yellow
+      'blue', -- blue
+      'magenta', -- magenta/purple
+      'cyan', -- cyan
+      'white', -- white
+   },
+   brights = {
+      'black', -- black
+      'red', -- red
+      'green', -- green
+      'yellow', -- yellow
+      'blue', -- blue
+      'magenta', -- magenta/purple
+      'cyan', -- cyan
+      'white', -- white
+   },
 }
 
 -- Windows and appearance
