@@ -1,4 +1,4 @@
-# Systemd Service to Enable
+# Systemd Services to Enable
 
 - Hyprpaper
 - Hypridle
