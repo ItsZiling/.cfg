@@ -41,7 +41,7 @@ config.colors = {
       'red', -- red
       'green', -- green
       'yellow', -- yellow
-      'blue', -- blue
+      '#2A71FF', -- blue
       'magenta', -- magenta/purple
       'cyan', -- cyan
       'white', -- white
