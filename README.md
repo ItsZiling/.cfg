@@ -1,11 +1,5 @@
-# Systemd Services to Enable
-- Hyprpaper
-- Hypridle
-- Waybar
-
-# Packages 
-- Pipewire and WirePlumber
-- Pavucontrol
+# Window Manager
+- oxwm by tony (currently using and testing how it feels)
 
 # Font
 - Jetbrains Mono (Also the Nerd font for icons)
