@@ -1,6 +1,5 @@
 --- @module 'owxm'
 
-
 -- Set up variables 
 local terminal = "wezterm"
 local mod = "Mod4"
